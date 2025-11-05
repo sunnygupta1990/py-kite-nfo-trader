@@ -31,8 +31,8 @@ class KiteConfig:
     def _create_default_config(self) -> Dict:
         """Create default configuration structure"""
         return {
-            "api_key": "rl88rf5xiafpgl7j",
-            "api_secret": "l27kxipokbl1zfoa9dnzenv6toplqekg",
+            "api_key": "",
+            "api_secret": "",
             "access_token": "",
             "refresh_token": "",
             "user_id": "",
