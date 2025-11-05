@@ -1,0 +1,17 @@
+win10toast==0.9
+plyer==2.1.0
+# Kite Connect NFO Trader Requirements
+
+# Core dependencies
+requests>=2.25.1
+websocket-client>=1.0.0
+
+# Development dependencies (optional)
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.9.0
+mypy>=0.910
+
+# Logging and utilities
+colorama>=0.4.4
+tqdm>=4.60.0

@@ -1,0 +1,24 @@
+{
+  "kite_timeout_seconds": 30,
+  "nfo_list_path": "data/Nfo_List.txt",
+  "month_override": "",
+  "fallback_next_month": true,
+  "options_filter_max_strikes": 5,
+  "options_up_threshold_percent": 200.0,
+  "scheduler": {
+    "interval_seconds": 300,
+    "notify_on_change": true,
+    "notify_always": false,
+    "notification_title": "Options Up 200% Changed",
+    "notification_duration": 5
+  },
+  "comments": {
+    "kite_timeout_seconds": "Affects src/kite_trader/core/app.py (initialize_kite_connection)",
+    "nfo_list_path": "Affects src/kite_trader/services/nfo_service.py (load_nfo_list)",
+    "month_override": "Affects src/kite_trader/services/nfo_service.py (__init__/_get_current_month)",
+    "fallback_next_month": "Affects src/kite_trader/services/nfo_service.py (get_current_month_contracts)",
+    "options_filter_max_strikes": "Affects src/kite_trader/services/nfo_service.py (filter_atm_otm_options)",
+    "options_up_threshold_percent": "Affects src/kite_trader/ui/menu_service.py (handle_options_up_200_percent)",
+    "scheduler": "Affects watch_options_changes.py (main/ensure_scheduler_config)"
+  }
+}

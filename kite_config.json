@@ -1,0 +1,11 @@
+{
+  "api_key": "rl88rf5xiafpgl7j",
+  "api_secret": "l27kxipokbl1zfoa9dnzenv6toplqekg",
+  "access_token": "xl5CKzhZnvh0LuYAtLJ6FBqHeIMUw7cT",
+  "refresh_token": "",
+  "user_id": "WN8558",
+  "user_name": "Kritika Batolia",
+  "broker": "ZERODHA",
+  "redirect_url": "http://localhost:8080/callback",
+  "environment": "production"
+}

@@ -1,0 +1,6 @@
+{
+    "gitmcp": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://gitmcp.io/tensorflow/tensorflow"]
+    }
+  }
